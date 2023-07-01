@@ -251,3 +251,12 @@ Cheking.check_json_token(result_get, ['msg'])
 token = json.loads(result_post.text)
 Cheking.check_json_search_in_value(result_get, 'msg', 'like')
 ```
+
+после написания кода нужно отклыть терминал в PyCharm и перейьти в директорию с проэктом,для этого ввести в терминале команду
+```
+cd <путь к директории>
+```
+после чего ввести 
+```
+python3 -m pytest -s -v
+```
