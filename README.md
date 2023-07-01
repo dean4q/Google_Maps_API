@@ -77,3 +77,14 @@ def create_new_location():
         print(result_post.text)         #выводим результат в текстовом виде
         return result_post
 ```
+Добавим метод для проверки новой локации
+```
+ @staticmethod
+    def get_new_location(place_id):
+        get_resourse = '/maps/api/place/get/json'  # ресурс метода GET,берется из документации 
+        get_url = base_url + get_resourse + key + '&place_id=' + place_id
+        print(get_url)
+        result_get = HttpMethods.get(get_url)
+        print(result_get.text)
+        return result_get
+```
