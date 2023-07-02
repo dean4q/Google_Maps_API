@@ -1,6 +1,6 @@
 Документация Google Map API.
 
-Метод POST
+#Метод POST
 Запрос:
     Base URL: https://rahulshettyacademy.com
     Resource: /maps/api/place/add/json
@@ -35,7 +35,7 @@
 
  
 
-Метод GET
+#Метод GET
 
 Base URL: https://rahulshettyacademy.com
 Resource: /maps/api/place/get/json
@@ -64,7 +64,7 @@ Resource: /maps/api/place/get/json
 }
  
 
-Метод PUT
+#Метод PUT
 
 Запрос:
     
@@ -94,7 +94,7 @@ Body:
 
  
 
-Метод DELETE
+#Метод DELETE
 Запрос:
 Base URL: https://rahulshettyacademy.com
 Resource: /maps/api/place/delete/json
